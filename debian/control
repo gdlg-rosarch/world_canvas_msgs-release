@@ -1,0 +1,12 @@
+Source: ros-kinetic-world-canvas-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-uuid-msgs
+Homepage: http://ros.org/wiki/world_canvas_msgs
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-world-canvas-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-uuid-msgs
+Description: World canvas framework messages package
